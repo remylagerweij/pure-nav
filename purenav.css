@@ -1,0 +1,33 @@
+ul {
+    width: 100%;
+    background-color: #010101;
+}
+ul li {
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+    float: none;
+    color: #fff;
+}
+ul li a {
+    line-height: 35px;
+    font-size: 13pt;
+    font-family: Arial;
+    display: inline-block;
+    width: calc(100% - 125px);
+    padding-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    float: left;
+}
+ul li ul {
+    display: none;
+    background-color: #0c74a0;
+}
+#expand {
+    margin-top: 10px;
+    width: 100px;
+}
+#expand:checked + ul {
+    display: inline-block;
+}
