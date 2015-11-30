@@ -8,6 +8,7 @@ ul li {
     display: inline-block;
     float: none;
     color: #fff;
+    position: relative;
 }
 ul li a {
     line-height: 35px;
@@ -27,6 +28,14 @@ ul li ul {
 #expand {
     margin-top: 10px;
     width: 100px;
+    -webkit-appearance: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    outline: 0;
+    cursor: pointer;
 }
 #expand:checked + ul {
     display: inline-block;
