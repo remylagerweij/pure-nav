@@ -25,7 +25,7 @@ ul li ul {
     display: none;
     background-color: #0c74a0;
 }
-#expand {
+.expand {
     margin-top: 10px;
     width: 100px;
     -webkit-appearance: inherit;
@@ -37,6 +37,6 @@ ul li ul {
     outline: 0;
     cursor: pointer;
 }
-#expand:checked + ul {
+.expand:checked + ul {
     display: inline-block;
 }
